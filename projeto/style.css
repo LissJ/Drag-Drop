@@ -1,0 +1,140 @@
+html {
+    background-color: #cdf2ff67;
+    min-height: 700px;
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* FIM RESET CSS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+/* CSS */
+h1{
+    font: 500 30px 'PoppinsBold';
+    background-color: #0b1588;
+    justify-content: flex-start;
+    padding: 26px 150px;
+    color: #c2e8ff;
+}
+
+.tudo{
+    font: 200 15px 'Poppins';
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+li{
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #86c4ff;
+}
+
+ul{
+    box-shadow: 4px 5px 7px 2px #0619a67d;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 50px; */
+    background-color: #d2e8ff;
+    border-radius: 10px;
+    min-height: 330px;
+    width: 270px;
+}
+
+.formulario{
+    margin: 0 10px;
+    font: 200 10px 'Poppins';
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    margin: 0 30px;
+    font: 500 20px 'Poppins';
+}
+
+input{
+    box-shadow: 2px 3px 7px 2px #0619a67d;
+
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 300px;
+    background-color: #c6e1ff;
+}
+
+button{
+    /* box-shadow: 2px 3px 7px 2px #0619a67d; */
+
+    padding: 17px 10px;
+    width: 100px;
+    margin: 0 41px;
+    font: 500 15px 'Poppins';
+    border-radius: 10px;
+    background-color: #0b1588;
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(67, 139, 255);
+    color: #000;
+}
+
+.rodape {
+    color: #fff;
+    margin-top: 80px;
+    height: 230px;
+    background-color: #0b1588;
+}
+
+.trellinho {
+    text-align: center;
+    padding-top: 73px;
+    font: 600 26px 'Poppins';
+}
+
+.trellao {
+    text-align: center;
+    font: 400 22px 'Poppins';
+}
